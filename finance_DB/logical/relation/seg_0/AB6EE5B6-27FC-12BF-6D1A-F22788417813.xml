@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DC_DATA1" directorySegmentName="seg_0" id="AB6EE5B6-27FC-12BF-6D1A-F22788417813">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:42:22 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<sourcePk>77347449-3081-7A1E-52FC-089962B197D2</sourcePk>
+<targetPk>EE71FFDB-5DD5-D15B-4CF7-1753B2AD3182</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F3905A89-4A21-2616-A556-F1532E09977F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>47C02667-6A26-DB32-BEA4-41556B17E10E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

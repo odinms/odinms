@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="4266CF94-9BF2-6F22-C47F-15B96D40915A" name="Data1" seqName="seg_0"/>
+   <object objectType="Table" objectID="03F10FC0-A3B0-F43A-AAD5-B4A034046E9F" name="Data2" seqName="seg_0"/>
+   <object objectType="Table" objectID="9592E392-F29F-7FBE-6A07-30308A4051D5" name="Data3" seqName="seg_0"/>
+   <object objectType="Table" objectID="913C04ED-D58E-96BB-C865-C3AA81C49698" name="DataCategory" seqName="seg_0"/>
+   <object objectType="Table" objectID="670B1320-A9B8-6906-59FA-93A34E98470A" name="PC_PD" seqName="seg_0"/>
+   <object objectType="Table" objectID="99797BA4-D3C7-D49D-5712-A51779EC0738" name="PaperCategory" seqName="seg_0"/>
+   <object objectType="Table" objectID="BFCA0E7B-53C5-89D9-246B-CA30D64450FA" name="PaperData" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="73AF1F4A-3EBB-9064-76CC-FD2BD8CE77DA" name="Data1_DataCategory_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8BB90AC4-C795-D1BA-0934-B47CD769D828" name="Data2_DataCategory_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="38314755-3AC3-D487-500A-BFDA2E927E15" name="Data3_DataCategory_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF4F9923-2738-3A83-D071-8EAC7201EA73" name="FK_ASS_4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="750666F5-5776-3ED1-B36B-831E238BF75B" name="FK_ASS_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

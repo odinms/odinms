@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3905A89-4A21-2616-A556-F1532E09977F" name="Data1">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:08:33 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="3671B665-8E11-1942-E6EB-9435946DCE54">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:08:49 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Year" id="18F7625A-011A-FA13-A320-E0E29A3B6C65">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:09:01 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="KPI1" id="87F6D43A-91AC-1A0D-F28D-1AFDC74F6E46">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:11:30 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="KPI2" id="1344E495-6AE1-1A05-8E08-572926906B48">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:13:25 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="KPI3" id="2EBF20E4-CBEA-2776-739B-9F936D8E79B0">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:13:26 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="KPI4" id="81FAD2F2-6D74-9308-905C-D0B3535DDF74">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:13:28 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="DC_id" id="089414E0-089A-DB8C-51A0-A7CD32A800DC">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:48:48 UTC</createdTime>
+<generatorID>AB6EE5B6-27FC-12BF-6D1A-F22788417813</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>62855095-3455-3C7F-2A7F-9441093BBFDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="KindName" id="C761CC1B-F660-4BBD-EE6E-41BCB3F64BA3">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:48:48 UTC</createdTime>
+<generatorID>AB6EE5B6-27FC-12BF-6D1A-F22788417813</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>83FF26D8-2869-46A5-14DF-718FC08660B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77347449-3081-7A1E-52FC-089962B197D2" name="Data1 PK">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:09:00 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<engineerTo>
+<item key="C10DEF4B-18C9-E14A-00AA-22F7D8355B6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3671B665-8E11-1942-E6EB-9435946DCE54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

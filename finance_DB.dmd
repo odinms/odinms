@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="finance_DB" id="8E55F326-2B6D-2E6D-B5BF-07C726F06113" version="3.5">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:00:48 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8E55F326-2B6D-2E6D-B5BF-07C726F06113</designId>
+</OSDM_Design>

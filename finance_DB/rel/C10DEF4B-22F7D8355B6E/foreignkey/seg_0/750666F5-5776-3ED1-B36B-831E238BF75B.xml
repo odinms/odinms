@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="750666F5-5776-3ED1-B36B-831E238BF75B" name="FK_ASS_5">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>61B31FFA-C83A-952F-EA1C-3A43E696BD79</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<containerWithKeyObject>670B1320-A9B8-6906-59FA-93A34E98470A</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>299506C2-C927-FB44-0D35-5C9FCB237BB8</localFKIndex>
+<keyObject>B872D1A1-1AF2-02CA-63BD-12FE8334A63B</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99797BA4-D3C7-D49D-5712-A51779EC0738" name="PaperCategory">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>D1062B9E-CF25-3476-3BF7-4E7B158BD1A1</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PC_Id" id="B97E4C84-41F9-E79F-5F93-E8CDC6F1EBD3">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>A757E767-F660-C460-76D0-B4CA78517ED4</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KindName" id="E07D25C1-753D-8335-1A11-E7598AD9771D">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>C3B4A9BB-1B10-70E8-5CEF-32CBEA8BBBAF</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFF2AC0E-99F1-0825-571F-DE9980111ED8" name="PaperCategory_PK">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>92AD3D50-8802-BD45-4A1D-26F2A8C36869</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B97E4C84-41F9-E79F-5F93-E8CDC6F1EBD3"/>
+<colUsage columnID="E07D25C1-753D-8335-1A11-E7598AD9771D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

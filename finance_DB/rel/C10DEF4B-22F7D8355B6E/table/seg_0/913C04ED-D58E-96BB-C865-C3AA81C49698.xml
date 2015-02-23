@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="913C04ED-D58E-96BB-C865-C3AA81C49698" name="DataCategory">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>47C02667-6A26-DB32-BEA4-41556B17E10E</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DC_id" id="909CFFAB-D4C9-CECA-2248-BDAA95221326">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>62855095-3455-3C7F-2A7F-9441093BBFDA</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KindName" id="DC9101D0-18CE-4EF0-22C9-6D9715771EF4">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>83FF26D8-2869-46A5-14DF-718FC08660B1</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Level" id="E03FEB05-00A9-84CF-1C7F-F5F6CAF0FA23">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>662B65E0-15EE-04DC-51E5-9555BA22919F</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SubLevel" id="4164F898-3DE5-89BD-CCDD-AC0CD2E095EF">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>CA22CBE2-EBDD-710E-DCEE-7CBF24900EF7</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B7A0D49-3ABD-5DF4-90E5-B37971AB2EB3" name="DataCategory_PK">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>EE71FFDB-5DD5-D15B-4CF7-1753B2AD3182</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="909CFFAB-D4C9-CECA-2248-BDAA95221326"/>
+<colUsage columnID="DC9101D0-18CE-4EF0-22C9-6D9715771EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

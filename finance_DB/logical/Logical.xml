@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5DFC9683-6890-6543-FC8B-09E3D5034F34" mainViewID="334E645E-9F36-B5FD-5533-3D1A5A7ECB8C">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:00:48 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

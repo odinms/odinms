@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="F3905A89-4A21-2616-A556-F1532E09977F" name="Data1" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5AA4BAEB-17F6-88EF-877D-4BBF90EC7F31" name="Data2" seqName="seg_0"/>
+   <object objectType="Entity" objectID="67EAC659-AF85-D67F-D0F5-E1000FA8EDD4" name="Data3" seqName="seg_0"/>
+   <object objectType="Entity" objectID="47C02667-6A26-DB32-BEA4-41556B17E10E" name="DataCategory" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D1062B9E-CF25-3476-3BF7-4E7B158BD1A1" name="PaperCategory" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AE2D8D2F-B9F1-9C6E-4060-9013FBE2FD95" name="PaperData" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AB6EE5B6-27FC-12BF-6D1A-F22788417813" name="DC_DATA1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C40D6EB6-624E-2C93-B863-EFC7035394AA" name="DC_DATA2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="54FBA545-D1EB-F641-701C-1DCBBC7735C7" name="DC_DATA3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="61B31FFA-C83A-952F-EA1C-3A43E696BD79" name="PC_PD" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

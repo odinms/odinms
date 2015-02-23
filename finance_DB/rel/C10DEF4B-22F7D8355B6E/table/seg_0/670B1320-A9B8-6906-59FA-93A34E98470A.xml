@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="670B1320-A9B8-6906-59FA-93A34E98470A" name="PC_PD">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PaperCategory_PC_Id" id="F1710105-2747-BA59-D9C2-C12B47B95540">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B97E4C84-41F9-E79F-5F93-E8CDC6F1EBD3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF4F9923-2738-3A83-D071-8EAC7201EA73" referredColumn="B97E4C84-41F9-E79F-5F93-E8CDC6F1EBD3"/>
+</associations>
+</Column>
+<Column name="PaperCategory_KindName" id="50744F9D-9CF8-102C-585A-78F376C9FBDA">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<delegate>E07D25C1-753D-8335-1A11-E7598AD9771D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF4F9923-2738-3A83-D071-8EAC7201EA73" referredColumn="E07D25C1-753D-8335-1A11-E7598AD9771D"/>
+</associations>
+</Column>
+<Column name="PaperData_PD_Id" id="42012F81-8E08-D4A2-F66D-463D0CAAFC38">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BF3E79DA-D17E-2A47-C5DE-41CF113A6D27</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="750666F5-5776-3ED1-B36B-831E238BF75B" referredColumn="BF3E79DA-D17E-2A47-C5DE-41CF113A6D27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA8E88E0-B800-166B-6EB3-43171B91A1C5" name="PC_PD__IDX">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1710105-2747-BA59-D9C2-C12B47B95540"/>
+<colUsage columnID="50744F9D-9CF8-102C-585A-78F376C9FBDA"/>
+<colUsage columnID="42012F81-8E08-D4A2-F66D-463D0CAAFC38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2684E222-ACEC-7CF3-031D-2D0527D57242" name="FK_ASS_4">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>61B31FFA-C83A-952F-EA1C-3A43E696BD79</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1710105-2747-BA59-D9C2-C12B47B95540"/>
+<colUsage columnID="50744F9D-9CF8-102C-585A-78F376C9FBDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="299506C2-C927-FB44-0D35-5C9FCB237BB8" name="FK_ASS_5">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>61B31FFA-C83A-952F-EA1C-3A43E696BD79</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42012F81-8E08-D4A2-F66D-463D0CAAFC38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

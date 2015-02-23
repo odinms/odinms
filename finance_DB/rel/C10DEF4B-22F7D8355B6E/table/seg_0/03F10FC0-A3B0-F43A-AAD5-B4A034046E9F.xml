@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03F10FC0-A3B0-F43A-AAD5-B4A034046E9F" name="Data2">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>5AA4BAEB-17F6-88EF-877D-4BBF90EC7F31</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="9D505E35-2B76-D28D-F91B-69F35FD43FCB">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>6AB56F77-5D7F-EE87-5C85-3D003EFCECCB</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Year" id="37683A8C-EC46-7BF3-A071-3C72E62EEC9C">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>F2ECE70C-78C2-55E0-5064-63D823512144</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPI1" id="41C73DBD-950C-2AA7-A23E-C0BC38228A68">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>62069B1E-9C89-246D-60D0-643A9D7CE139</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPI2" id="C49B4093-4AA0-2D7F-7FBE-49EEBA64E7F5">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>C626EA6B-3DE0-5E25-F769-42AB14A5DA5D</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPI3" id="9121D113-A365-8F84-C8A0-17878A3CD10D">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>05D22943-C348-D8A4-B1B5-109EBF2EA80F</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPI4" id="09B203C7-558C-97DC-6E2E-D29371E01C51">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>33BCABA7-9473-FF5B-5240-CF2F764655F0</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataCategory_DC_id" id="BA2973BB-BC85-1DA0-3BB7-8122375DBC09">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>17139E28-2153-954D-1A61-FBB210C674A4</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>909CFFAB-D4C9-CECA-2248-BDAA95221326</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BB90AC4-C795-D1BA-0934-B47CD769D828" referredColumn="909CFFAB-D4C9-CECA-2248-BDAA95221326"/>
+</associations>
+</Column>
+<Column name="DataCategory_KindName" id="8EEE8999-CD41-DE12-F6BC-55D0459FEE97">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>772F8567-538E-864A-03CE-D8B1F7C011B5</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<delegate>DC9101D0-18CE-4EF0-22C9-6D9715771EF4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BB90AC4-C795-D1BA-0934-B47CD769D828" referredColumn="DC9101D0-18CE-4EF0-22C9-6D9715771EF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A525F0D-431D-2945-0ACE-409BB7BFF648" name="Data2_PK">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>8B499BE8-BD76-96C5-0D06-1748FF831756</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D505E35-2B76-D28D-F91B-69F35FD43FCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E67B800-188C-DA02-FBE9-B5F45737E6B1" name="Data2_DataCategory_FK">
+<createdBy>Odinms</createdBy>
+<createdTime>2015-02-23 08:49:01 UTC</createdTime>
+<generatorID>C40D6EB6-624E-2C93-B863-EFC7035394AA</generatorID>
+<ownerDesignName>finance_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA2973BB-BC85-1DA0-3BB7-8122375DBC09"/>
+<colUsage columnID="8EEE8999-CD41-DE12-F6BC-55D0459FEE97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
