@@ -29,10 +29,10 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `area_stats` (
 `Id` int(11) NOT NULL,
   `YEAR` date DEFAULT NULL,
-  `KPI1` double(5,2) DEFAULT NULL,
-  `KPI2` double(5,2) DEFAULT NULL,
-  `KPI3` double(5,2) DEFAULT NULL,
-  `KPI4` double(5,2) DEFAULT NULL,
+  `KPI1` double(16,2) DEFAULT NULL,
+  `KPI2` double(16,2) DEFAULT NULL,
+  `KPI3` double(16,2) DEFAULT NULL,
+  `KPI4` double(16,2) DEFAULT NULL,
   `DataCategory_DC_id` int(11) DEFAULT NULL,
   `DataCategory_KindName` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -71,10 +71,10 @@ INSERT INTO `DataCategory` (`DC_id`, `KindName`, `Level`, `SubLevel`) VALUES
 CREATE TABLE IF NOT EXISTS `eco_stats` (
 `Id` int(11) NOT NULL,
   `YEAR` date DEFAULT NULL,
-  `KPI1` double(5,2) DEFAULT NULL,
-  `KPI2` double(5,2) DEFAULT NULL,
-  `KPI3` double(5,2) DEFAULT NULL,
-  `KPI4` double(5,2) DEFAULT NULL,
+  `KPI1` double(16,2) DEFAULT NULL,
+  `KPI2` double(16,2) DEFAULT NULL,
+  `KPI3` double(16,2) DEFAULT NULL,
+  `KPI4` double(16,2) DEFAULT NULL,
   `DataCategory_DC_id` int(11) DEFAULT NULL,
   `DataCategory_KindName` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
@@ -95,10 +95,10 @@ INSERT INTO `eco_stats` (`Id`, `YEAR`, `KPI1`, `KPI2`, `KPI3`, `KPI4`, `DataCate
 CREATE TABLE IF NOT EXISTS `fin_stats` (
 `Id` int(11) NOT NULL,
   `YEAR` date DEFAULT NULL,
-  `KPI1` double(5,2) DEFAULT NULL,
-  `KPI2` double(5,2) DEFAULT NULL,
-  `KPI3` double(5,2) DEFAULT NULL,
-  `KPI4` double(5,2) DEFAULT NULL,
+  `KPI1` double(16,2) DEFAULT NULL,
+  `KPI2` double(16,2) DEFAULT NULL,
+  `KPI3` double(16,2) DEFAULT NULL,
+  `KPI4` double(16,2) DEFAULT NULL,
   `DataCategory_DC_id` int(11) DEFAULT NULL,
   `DataCategory_KindName` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
