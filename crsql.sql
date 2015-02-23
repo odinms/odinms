@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `eco_stats` (
 --
 
 INSERT INTO `eco_stats` (`Id`, `YEAR`, `KPI1`, `KPI2`, `KPI3`, `KPI4`, `DataCategory_DC_id`, `DataCategory_KindName`) VALUES
-(1, '2015-02-23', 51.00, 0.07, 0.01, 107.00, NULL, '内蒙古');
+(1, '2015-02-23', 51.00, 0.07, 0.01, 107.00, NULL, '四川省');
 
 -- --------------------------------------------------------
 
